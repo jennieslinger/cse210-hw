@@ -85,7 +85,7 @@ public void SaveEntries()
     }
 }
 
-class Program
+class JournalProgram
 {
     static void Main(string[]args)
     {
