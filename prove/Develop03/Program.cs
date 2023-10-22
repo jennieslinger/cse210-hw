@@ -1,9 +1,14 @@
+// Scripture Memorizer
 using System;
 
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello Develop03 World!");
+        Scripture single = new Scripture();
+        Console.WriteLine(single.GetSingleVerseTextString());
+
+        Scripture multiverse = new Scripture();
+        Console.WriteLine(multiverse.GetMultiVerseTextString());
     }
 }
